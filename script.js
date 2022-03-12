@@ -1,3 +1,5 @@
+// REPLACE https://octiwhale.github.io/Klistery/start.html WITH YOUR PATH TO START.HTML
+
 var urimodify = 0;
 var locked = 1;
 var effects = new Audio('menu.mp3');
@@ -44,13 +46,13 @@ function addressGo() {
 
 function unlockBrowser() {
   var browserFrame = document.getElementById("browserFrame");
-  browserFrame.src = 'start.html';
+  browserFrame.src = 'https://octiwhale.github.io/Klistery/start.html';
 }
 
 function homebtn() {
   if (locked === 0) {
   var browserFrame = document.getElementById("browserFrame");
-  browserFrame.src = 'start.html';
+  browserFrame.src = 'https://octiwhale.github.io/Klistery/start.html';
   effects.play();
   urimodify === 0;
   return false;
@@ -87,7 +89,7 @@ document.onkeydown = function(e) {
   if(e.shiftKey && e.keyCode == 'H'.charCodeAt(0)) {
     if(locked === 0) {
     var browserFrame = document.getElementById("browserFrame");
-    browserFrame.src = 'start.html';
+    browserFrame.src = 'https://octiwhale.github.io/Klistery/start.html';
     document.getElementById("home").focus();
     effects.play();
     navigator.vibrate(75);
