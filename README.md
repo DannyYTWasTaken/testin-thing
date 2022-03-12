@@ -14,3 +14,4 @@ At the moment, Klistery does not work on mobile.
 ## Hosts
 You can access Klistery through unblocked hosts.
 [Google Sites](https://sites.google.com/view/klistery)
+[GitHub Pages](https://octiwhale.github.io/Klistery)
