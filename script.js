@@ -7,10 +7,6 @@ if (!dialog.showModal) {
   dialogPolyfill.registerDialog(dialog);
 }
 
-if (screen.width <= 699) {
-document.location = "mobile.html";
-}
-
 function confirmLegal() {
   dialog.showModal();
   effects.play();
