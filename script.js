@@ -14,6 +14,7 @@ function confirmLegal() {
 }
 showDialogButton.addEventListener('click', function() {
   dialog.showModal();
+  effects.play();
 });
 dialog.querySelector('.close').addEventListener('click', function() {
   dialog.close();
