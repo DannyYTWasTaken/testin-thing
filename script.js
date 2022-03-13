@@ -84,6 +84,7 @@ document.onkeydown = function(e) {
     dialog.close();
     effects.play();
     navigator.vibrate(75);
+    unlockBrowser();
     return false;
   }
   if(e.shiftKey && e.keyCode == 'H'.charCodeAt(0)) {
